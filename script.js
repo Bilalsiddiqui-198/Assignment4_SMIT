@@ -176,7 +176,7 @@ const summary=products.map((pro9)=>({
  )
 console.log(summary)
 
-
+// task10
 const max_quantity=products.reduce((acc,cur)=>{
   let Totalstock=cur.variations.reduce((r,s)=>r+s.quantity  ,0)
   if(Totalstock>acc.totalstock){
